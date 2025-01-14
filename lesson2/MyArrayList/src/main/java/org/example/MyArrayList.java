@@ -104,16 +104,13 @@ public class MyArrayList<T> implements Iterable<T> {
      * @param c коллекция, содержащая элементы для добавления
      * @throws NullPointerException если указанная коллекция равна null
      */
-    public <E> void addAll(Collection<E> c) {
+    public void addAll(Collection<T> c) {
         int addSize = c.size();
         ensureCapacity(size + addSize);
-
-        int i = 0;
-        for (E element : c) {
-            elements[size + i++] = (T) element; // Приведение типа
+    
+        for (T element : c) {
+            elements[size++] = element;
         }
-
-        size += addSize;
     }
 
     /**
