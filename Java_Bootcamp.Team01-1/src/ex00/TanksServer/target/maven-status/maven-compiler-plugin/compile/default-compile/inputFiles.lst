@@ -1,0 +1,7 @@
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksServer/src/main/java/edu/school21/server/services/ServerClient.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksServer/src/main/java/edu/school21/server/configurations/DataSourceConfiguration.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksServer/src/main/java/edu/school21/server/models/RoundAnalytics.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksServer/src/main/java/edu/school21/server/Application.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksServer/src/main/java/edu/school21/server/repositories/RoundAnalyticsRepository.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksServer/src/main/java/edu/school21/server/repositories/RoundAnalyticsImpl.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksServer/src/main/java/edu/school21/server/services/Server.java

@@ -1,0 +1,7 @@
+edu/school21/server/services/ServerClient.class
+edu/school21/server/services/Server.class
+edu/school21/server/configurations/DataSourceConfiguration.class
+edu/school21/server/repositories/RoundAnalyticsRepository.class
+edu/school21/server/models/RoundAnalytics.class
+edu/school21/server/Application.class
+edu/school21/server/repositories/RoundAnalyticsImpl.class

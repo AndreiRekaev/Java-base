@@ -1,0 +1,9 @@
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/app/TanksApplication.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/client/Client.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/client/TankController.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/client/TankControllerImpl.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/models/Bullet.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/models/Explosion.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/models/Tank.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/edu/school21/sockets/utils/Field.java
+/home/andrei/Java_Bootcamp.Team01-1/src/ex00/TanksClient/src/main/java/module-info.java
