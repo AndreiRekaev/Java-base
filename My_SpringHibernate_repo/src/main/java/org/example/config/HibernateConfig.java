@@ -9,13 +9,18 @@ public class HibernateConfig {
     private static SessionFactory sessionFactory;
 
     static {
-        try (StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
-                .configure("hibernate.cfg.xml")
-                .build()) {
+        try {
+            StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                    .configure("hibernate.cfg.xml")
+                    .build();
             sessionFactory = new MetadataSources(registry)
+                    .addAnnotatedClass(org.example.model.Product.class)
                     .buildMetadata()
                     .buildSessionFactory();
         } catch (Exception e) {
+            if (sessionFactory != null) {
+                sessionFactory.close();
+            }
             throw new ExceptionInInitializerError(e);
         }
     }
